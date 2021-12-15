@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px 'Lato', sans-serif;
+  color: #fff;
+  margin: 0;
+  height: auto;
+  background: url(./assets/burgerlove-background.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.online-text {
+    font-size: 11px;
+}
+
+.logo {
+    width: 100px;
+    z-index: 100;
+}
+
+.foodora-wrapper,
+.logo-wrapper,
+.text-wrapper {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header-top{
+  background-color: white;
+  height: 50px;
+}
+
+.bullet {
+  font-size: 27px;
+  color: #72151D;
+}
+
+.footer-title-text,
+.open-hours {
+  font-family: 'Bebas Neue', cursive;
+  color: #72151D;
+  letter-spacing: 2px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.header-bottom {
+  background-color: #2d2e2f;
+  height: 140px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.menue-border {
+  width: 85%;
+  margin: 0 auto;
+  padding: 7px;
+  max-width: 1100px;
+  background-color: #72151D;
+}
+
+.menue-wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  color: #fff;  
+  border: 1px solid #fff
+}
+
+.cart {
+  background-color: #fff;
+  width: 300px;
+  height: 27px; 
+}
+
+.cart-icon {
+  width: 60px;
+  background-color: #72151D;
+}
+
+.menue {
+  font-family: Bebas Neue;
+}
+
+.food-title {
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+.accordion-header {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 190px; 
+  padding: 50px 0 0 0;
+}
+
+.accordion-content {
+    display: none;
+    height: auto;
+    
+}
+
+.open+.accordion-content {
+    display: flex;
+    justify-content: center;
+}
+
+.item-text {
+  font: normal 16px 'Lato', sans-serif;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 300px;
+  border-bottom: solid 1.5px #fff;
+  padding: 5px;
+  margin: 0 0 8px 0;
+}
+
+.line2 {
+  opacity: 0.7;
+}
+
+.line3 {
+  opacity: 0.5;
+}
+
+.hours-footer {
+  width: 400px;
+}
+
+.footer-section {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+  color: #72151D;
+}
+
+.foodora-wrapper {
+  height: 40px;
+  background-color: #D60265;
+}
+
+
