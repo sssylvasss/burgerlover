@@ -70,13 +70,13 @@ const generateMenu = () => {
         </div>
       </div>
       <div class ="accordion-content">
-        <ul class="" style="list-style-type: none;" >
+        <ul style="list-style-type: none;" >
           ${foodCategory.items.map((item) => `
-          <li style="list-style-type: none;">
+          <li>
             <div class="d-flex justify-content-between">
               <div>
                 <h2>${item.name}</h2> 
-                <p class="item-text mr-5">${item.text}</p>
+                <p class="menu-item-text mr-5">${item.text}</p>
               </div>
               <div class="d-flex ml-5">
                 <h2>${item.price}</h2> 
