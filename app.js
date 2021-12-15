@@ -53,6 +53,7 @@ const menueList = [
 ]
 
 const generateMenu = () => {
+  
   menueList.forEach((foodCategory) => {
     menue.innerHTML += `
     <section class="menue d-flex-col justify-content-center">
@@ -76,7 +77,7 @@ const generateMenu = () => {
             <div class="d-flex justify-content-between">
               <div>
                 <h2>${item.name}</h2> 
-                <p class="menu-item-text mr-5">${item.text}</p>
+                <p class="item-text mr-5">${item.text}</p>
               </div>
               <div class="d-flex ml-5">
                 <h2>${item.price}</h2> 
